@@ -8,16 +8,17 @@ import { Observable } from 'rxjs';
   templateUrl: './movie.component.html',
   styleUrls: ['./movie.component.css']
 })
+
 export class MovieComponent implements OnInit {
+  
   @Input() movie: Movie = {id: 1,
     imdb_id: 1,
-    genres: [],
+    genre_ids: [],
     title: "",
     overview: "",
-    popularity: "",
+    vote_average: "",
     poster_path: "",
     release_date: "",};
-    
 
   constructor() { }
 

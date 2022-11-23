@@ -19,6 +19,7 @@ export class MovieService {
   }
 
   getMovieById(id: number): Observable<any> {
-    return timer(1, 3000).pipe(switchMap(() => this.httpClient.get<any>("https://api.themoviedb.org/3/movie/popular?api_key=8a31694e372bf87df346f81ef6bd7705&language=en-US&page=1%22")));
+    return timer(1, 3000).pipe(switchMap(() => this.httpClient.get<any>("https://api.themoviedb.org/3/movie/popular?api_key=" + this.api_key + "&language=en-US&page=1%22")));
   }
+  
 }
