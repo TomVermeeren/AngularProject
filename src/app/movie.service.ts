@@ -14,12 +14,16 @@ export class MovieService {
   constructor(private httpClient: HttpClient) {
   }
 
-  getMovies(): Observable<any> {
+  getMovies(searchTerm: String): Observable<any> {
+    if(searchTerm==""){
+      
     return this.httpClient.get<any>("https://api.themoviedb.org/3/movie/popular?api_key=" + this.api_key);
+    
+    }
+  else{
+    console.log(searchTerm)
+    return this.httpClient.get<any>("https://api.themoviedb.org/3/search/movie?api_key=" + this.api_key + "&query=" + searchTerm);
+  }
   }
 
-  getMovieById(id: number): Observable<any> {
-    return timer(1, 3000).pipe(switchMap(() => this.httpClient.get<any>("https://api.themoviedb.org/3/movie/popular?api_key=" + this.api_key + "&language=en-US&page=1%22")));
-  }
-  
 }
