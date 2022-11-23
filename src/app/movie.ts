@@ -1,10 +1,10 @@
 export interface Movie {
     id: number;
     imdb_id: number;
-    genres: [];
+    genre_ids: [];
     title: string;
     overview: string;
-    popularity: string;
+    vote_average: string;
     poster_path: string;
     release_date: string;
 }
