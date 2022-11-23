@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Movie } from '../movie'
 import { MovieService } from '../movie.service';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-movie',
@@ -9,20 +10,18 @@ import { MovieService } from '../movie.service';
 })
 export class MovieComponent implements OnInit {
   @Input() movie: Movie = {id: 1,
-    imdb_id: 235,
+    imdb_id: 1,
     genres: [],
-    title: "test motj",
-    overview: "overview",
-    popularity: "popularity",
-    poster_path: "poster_path",
-    release_date: "release_date",};
+    title: "",
+    overview: "",
+    popularity: "",
+    poster_path: "",
+    release_date: "",};
+    
 
-  movies: Movie[] = [];
-
-  constructor(private movieService: MovieService) { }
+  constructor() { }
 
   ngOnInit(): void {
-    this.movies = this.movieService.getMovies();
   }
 
 }
