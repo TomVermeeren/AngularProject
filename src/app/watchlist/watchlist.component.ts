@@ -1,16 +1,14 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Movie } from '../movie'
+import { Movie } from '../movie';
 import { MovieService } from '../movie.service';
-import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-movie',
-  templateUrl: './movie.component.html',
-  styleUrls: ['./movie.component.css']
+  selector: 'app-watchlist',
+  templateUrl: './watchlist.component.html',
+  styleUrls: ['./watchlist.component.css']
 })
+export class WatchlistComponent implements OnInit {
 
-export class MovieComponent implements OnInit {
-  
   @Input() movie: Movie = {id: 1,
     imdb_id: 1,
     genre_ids: [],
@@ -26,7 +24,7 @@ export class MovieComponent implements OnInit {
     this.movieService.postWatchitem(movie).subscribe(data=>{console.log(data)})
   }
 
-  addToSeenMovies(movie: Movie){
+  getSeenMoviesFromOwnAPI(movie: Movie){
     this.movieService.postSeenitem(movie).subscribe(data=>{console.log(data)})
   }
 

@@ -1,0 +1,106 @@
+{
+  "watchlist": [
+    {
+      "adult": false,
+      "backdrop_path": "/kmzppWh7ljL6K9fXW72bPN3gKwu.jpg",
+      "genre_ids": [
+        14,
+        28,
+        35,
+        80
+      ],
+      "id": 1013860,
+      "original_language": "en",
+      "original_title": "R.I.P.D. 2: Rise of the Damned",
+      "overview": "When Sheriff Roy Pulsipher finds himself in the afterlife, he joins a special police force and returns to Earth to save humanity from the undead.",
+      "popularity": 3817.14,
+      "poster_path": "/g4yJTzMtOBUTAR2Qnmj8TYIcFVq.jpg",
+      "release_date": "2022-11-15",
+      "title": "R.I.P.D. 2: Rise of the Damned",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 132
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/yYrvN5WFeGYjJnRzhY0QXuo4Isw.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "id": 505642,
+      "original_language": "en",
+      "original_title": "Black Panther: Wakanda Forever",
+      "overview": "Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death. As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
+      "popularity": 3011.765,
+      "poster_path": "/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
+      "release_date": "2022-11-09",
+      "title": "Black Panther: Wakanda Forever",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 950
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/y5Z0WesTjvn59jP6yo459eUsbli.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 663712,
+      "original_language": "en",
+      "original_title": "Terrifier 2",
+      "overview": "After being resurrected by a sinister entity, Art the Clown returns to Miles County where he must hunt down and destroy a teenage girl and her younger brother on Halloween night.  As the body count rises, the siblings fight to stay alive while uncovering the true nature of Art's evil intent.",
+      "popularity": 1646.926,
+      "poster_path": "/b6IRp6Pl2Fsq37r9jFhGoLtaqHm.jpg",
+      "release_date": "2022-10-06",
+      "title": "Terrifier 2",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 656
+    }
+  ],
+  "filmsgekeken": [
+    {
+      "adult": false,
+      "backdrop_path": "/kmzppWh7ljL6K9fXW72bPN3gKwu.jpg",
+      "genre_ids": [
+        14,
+        28,
+        35,
+        80
+      ],
+      "id": 1013860,
+      "original_language": "en",
+      "original_title": "R.I.P.D. 2: Rise of the Damned",
+      "overview": "When Sheriff Roy Pulsipher finds himself in the afterlife, he joins a special police force and returns to Earth to save humanity from the undead.",
+      "popularity": 3817.14,
+      "poster_path": "/g4yJTzMtOBUTAR2Qnmj8TYIcFVq.jpg",
+      "release_date": "2022-11-15",
+      "title": "R.I.P.D. 2: Rise of the Damned",
+      "video": false,
+      "vote_average": 6.9,
+      "vote_count": 132
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/y5Z0WesTjvn59jP6yo459eUsbli.jpg",
+      "genre_ids": [
+        27,
+        53
+      ],
+      "id": 663712,
+      "original_language": "en",
+      "original_title": "Terrifier 2",
+      "overview": "After being resurrected by a sinister entity, Art the Clown returns to Miles County where he must hunt down and destroy a teenage girl and her younger brother on Halloween night.  As the body count rises, the siblings fight to stay alive while uncovering the true nature of Art's evil intent.",
+      "popularity": 1646.926,
+      "poster_path": "/b6IRp6Pl2Fsq37r9jFhGoLtaqHm.jpg",
+      "release_date": "2022-10-06",
+      "title": "Terrifier 2",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 656
+    }
+  ]
+}

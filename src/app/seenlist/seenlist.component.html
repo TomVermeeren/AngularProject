@@ -1,0 +1,26 @@
+
+    <div *ngIf="movie">
+        <div class="card mb-2 bg-secondary text-white">
+            <div class="row">
+            <img class="card-img-top col-6" style="width: 50%; height: 50%;" src="https://image.tmdb.org/t/p/w500{{movie.poster_path}}" alt="Film poster">
+                <div class="col-6">
+                    <div class="card-body">
+                        <h5 class="card-title">{{movie.title}}</h5>
+                        <p class="card-text">{{movie.overview}}</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item  bg-secondary text-white"></li>
+                        <li class="list-group-item bg-secondary text-white">Gemiddelde rating: {{movie.vote_average}}</li>
+                        <li class="list-group-item bg-secondary text-white">Release datum: {{movie.release_date}}</li>
+                        <li class="list-group-item bg-secondary text-white"></li>
+                    </ul>
+                    <div class="card-body">
+                        <form (ngSubmit)="getSeenMoviesFromOwnAPI(movie)">
+                        <button type="submit" class="btn btn-primary col-5 m-1">&succ; Film bekeken</button>
+                    </form>
+                        <button type="button" class="btn btn-primary col-5 m-1">&star; Verwijderen van watchlist</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
