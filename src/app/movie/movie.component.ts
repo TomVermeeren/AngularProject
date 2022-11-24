@@ -20,7 +20,11 @@ export class MovieComponent implements OnInit {
     poster_path: "",
     release_date: "",};
 
-  constructor() { }
+    constructor(private movieService: MovieService) { }
+
+  addToWatchlist(movie: Movie){
+    this.movieService.postWatchitem(movie).subscribe(data=>{console.log(data)})
+  }
 
   ngOnInit(): void {
   }
