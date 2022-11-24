@@ -1,12 +1,13 @@
 import { Injectable } from '@angular/core';
 import { Movie } from './movie';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable, switchMap, timer } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class MovieService {
+
 
   movies: Movie[] = [];
 
@@ -26,4 +27,9 @@ export class MovieService {
   }
   }
 
+  postWatchitem(movieToAddToWatchlist: Movie): Observable<Movie> {
+    let headers = new HttpHeaders();
+    headers = headers.set("Content-Type", "application/json; charset=utf-8");
+    return this.httpClient.post<Movie>("http://localhost:3000/watchlist", movieToAddToWatchlist, {headers: headers})
+  }
 }
