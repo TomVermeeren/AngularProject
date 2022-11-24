@@ -32,4 +32,19 @@ export class MovieService {
     headers = headers.set("Content-Type", "application/json; charset=utf-8");
     return this.httpClient.post<Movie>("http://localhost:3000/watchlist", movieToAddToWatchlist, {headers: headers})
   }
+
+  postSeenitem(movieToAddToSeenlist: Movie): Observable<Movie> {
+    let headers = new HttpHeaders();
+    headers = headers.set("Content-Type", "application/json; charset=utf-8");
+    return this.httpClient.post<Movie>("http://localhost:3000/filmsgekeken", movieToAddToSeenlist, {headers: headers})
+  }
+
+  getWatchlistFromOwnAPI(): Observable<any> {
+    return this.httpClient.get<any>("http://localhost:3000/watchlist");
+  }
+
+  getSeenMoviesFromOwnAPI(): Observable<any> {
+    return this.httpClient.get<any>("http://localhost:3000/filmsgekeken");
+  }
+  
 }
