@@ -47,4 +47,7 @@ export class MovieService {
     return this.httpClient.get<any>("http://localhost:3000/filmsgekeken");
   }
   
+  deleteMovieFromWatchlist(movie: Movie): Observable<Movie> {
+    return this.httpClient.delete<Movie>("http://localhost:3000/watchlist/" + movie.id);
+}
 }

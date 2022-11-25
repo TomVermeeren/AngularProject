@@ -2,47 +2,6 @@
   "watchlist": [
     {
       "adult": false,
-      "backdrop_path": "/kmzppWh7ljL6K9fXW72bPN3gKwu.jpg",
-      "genre_ids": [
-        14,
-        28,
-        35,
-        80
-      ],
-      "id": 1013860,
-      "original_language": "en",
-      "original_title": "R.I.P.D. 2: Rise of the Damned",
-      "overview": "When Sheriff Roy Pulsipher finds himself in the afterlife, he joins a special police force and returns to Earth to save humanity from the undead.",
-      "popularity": 3817.14,
-      "poster_path": "/g4yJTzMtOBUTAR2Qnmj8TYIcFVq.jpg",
-      "release_date": "2022-11-15",
-      "title": "R.I.P.D. 2: Rise of the Damned",
-      "video": false,
-      "vote_average": 6.9,
-      "vote_count": 132
-    },
-    {
-      "adult": false,
-      "backdrop_path": "/yYrvN5WFeGYjJnRzhY0QXuo4Isw.jpg",
-      "genre_ids": [
-        28,
-        12,
-        878
-      ],
-      "id": 505642,
-      "original_language": "en",
-      "original_title": "Black Panther: Wakanda Forever",
-      "overview": "Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death. As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
-      "popularity": 3011.765,
-      "poster_path": "/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
-      "release_date": "2022-11-09",
-      "title": "Black Panther: Wakanda Forever",
-      "video": false,
-      "vote_average": 7.5,
-      "vote_count": 950
-    },
-    {
-      "adult": false,
       "backdrop_path": "/y5Z0WesTjvn59jP6yo459eUsbli.jpg",
       "genre_ids": [
         27,
@@ -59,6 +18,44 @@
       "video": false,
       "vote_average": 7,
       "vote_count": 656
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kUSt5wzCUsmNioHPV24cXoGfpVF.jpg",
+      "genre_ids": [
+        14,
+        27
+      ],
+      "id": 720018,
+      "original_language": "en",
+      "original_title": "Ouija Craft",
+      "overview": "Two witches use a Ouija board to resurrect their friend after she dies in a tragic accident.",
+      "popularity": 3.082,
+      "poster_path": "/4BwPmBSmj2cuYxyihOxXc4DFFXC.jpg",
+      "release_date": "2020-06-10",
+      "title": "Ouija Craft",
+      "video": false,
+      "vote_average": 5.4,
+      "vote_count": 5
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/hompje1ypeRFYuYM6ZCuB35A3b7.jpg",
+      "genre_ids": [
+        35,
+        878
+      ],
+      "id": 33380,
+      "original_language": "en",
+      "original_title": "Gayniggers from Outer Space",
+      "overview": "Extraterrestrial beings travel the galaxy to free men \"oppressed\" by females to make way for an entirely-homosexual society.",
+      "popularity": 9.786,
+      "poster_path": "/eEsWxnpMb4buLKMizxXHI0ZKxyA.jpg",
+      "release_date": "1992-01-01",
+      "title": "Gayniggers from Outer Space",
+      "video": false,
+      "vote_average": 4.3,
+      "vote_count": 61
     }
   ],
   "filmsgekeken": [
@@ -101,6 +98,25 @@
       "video": false,
       "vote_average": 7,
       "vote_count": 656
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kUSt5wzCUsmNioHPV24cXoGfpVF.jpg",
+      "genre_ids": [
+        14,
+        27
+      ],
+      "id": 720018,
+      "original_language": "en",
+      "original_title": "Ouija Craft",
+      "overview": "Two witches use a Ouija board to resurrect their friend after she dies in a tragic accident.",
+      "popularity": 3.082,
+      "poster_path": "/4BwPmBSmj2cuYxyihOxXc4DFFXC.jpg",
+      "release_date": "2020-06-10",
+      "title": "Ouija Craft",
+      "video": false,
+      "vote_average": 5.4,
+      "vote_count": 5
     }
   ]
 }

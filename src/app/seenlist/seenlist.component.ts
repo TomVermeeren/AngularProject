@@ -22,6 +22,9 @@ export class SeenlistComponent implements OnInit {
     getSeenMoviesFromOwnAPI(movie: Movie){
       this.movieService.postSeenitem(movie).subscribe(data=>{console.log(data)})
     }
+    deleteFromWatchlist(movie: Movie){
+      this.movieService.deleteMovieFromWatchlist(movie).subscribe(data=>{console.log(data)})
+    }
   ngOnInit(): void {
   }
 
