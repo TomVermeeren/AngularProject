@@ -24,6 +24,10 @@ export class WatchlistComponent implements OnInit {
     this.movieService.postWatchitem(movie).subscribe(data=>{console.log(data)})
   }
 
+  deleteFromWatchlist(movie: Movie){
+    this.movieService.deleteMovieFromWatchlist(movie).subscribe(data=>{console.log(data)})
+  }
+
   getSeenMoviesFromOwnAPI(movie: Movie){
     this.movieService.postSeenitem(movie).subscribe(data=>{console.log(data)})
   }

@@ -4,9 +4,9 @@
 <div class="col-6">
     <input class="form-control col-6"  placeholder="Zoek een film..." type="search" required [(ngModel)]="searchTerm" name="ngModel">  
 </div>
-    <button class="btn btn-primary col-1" type="submit">Zoeken!</button>
+    <button class="btn btn-primary col-2 col-sm-2 col-md-2 col-lg-1 col-xl-1" type="submit">Zoeken!</button>
 </div>
 </form>
 <div class="row">
-<app-movie class="col-6" *ngFor="let movie of movies" [movie]="movie"></app-movie>
+<app-movie class="col-12 col-md-12 col-sm-12 col-lg-6" *ngFor="let movie of movies" [movie]="movie"></app-movie>
 </div>
